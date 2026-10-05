@@ -301,14 +301,14 @@ export default function Landing({ darkMode, setDarkMode }) {
         <motion.div 
           whileHover={{ scale: 1.005 }}
           style={{ transformStyle: "preserve-3d" }}
-          className="mx-auto max-w-7xl overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-700 px-6 py-16 text-center text-white shadow-2xl shadow-indigo-600/30 sm:px-12">
+          className="mx-auto max-w-7xl overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-600 via-violet-400 to-purple-400 px-6 py-16 text-center text-white shadow-2xl shadow-indigo-600/30 sm:px-12">
           <h2 className="text-3xl font-black tracking-tight sm:text-4xl">
             Ready to work smarter?
           </h2>
 
-          <p className="mx-auto mt-3 max-w-xl text-sm text-indigo-100/90">
-            Join thousands of forward-thinking teams using Nexora to automate operations and accelerate business growth.
-          </p>
+         <p className="mx-auto mt-3 max-w-xl text-sm text-slate-700 dark:text-white sm:text-base">
+  Join thousands of forward-thinking teams using Nexora to automate operations and accelerate business growth.
+</p>
 
           <motion.div whileHover={{ scale: 1.06, y: -2 }} whileTap={{ scale: 0.95 }} className="mt-8 inline-block">
             <Link
